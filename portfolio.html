@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man Bahadur Thapa - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Man Bahadur Thapa</h1>
+        <p>Full Stack Web Developer | Computational Programmer</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Profile</h2>
+            <p>Motivated and adaptable professional with competencies in computational programming, web design, and database architecture.</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <p><strong>Full Stack Web Developer Intern - Mero Hosting</strong></p>
+            <ul>
+                <li>Participated in full software development lifecycle.</li>
+                <li>Designed and implemented front-end interfaces.</li>
+                <li>Developed back-end functionalities and database integration.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p><strong>B.Tech in Computer Science Engineering</strong> - Jain Deemed To Be University</p>
+            <p><strong>Intermediate in Science</strong> - Oxford Secondary School</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Python, Java, C++, JavaScript</li>
+                <li>Database: MySQL, PostgreSQL</li>
+                <li>Web Development: HTML, CSS, JavaScript, React, Angular</li>
+                <li>Problem Solving and Critical Thinking</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <p><strong>Heart Disease Prediction using Machine Learning</strong></p>
+            <p>Exploring various reasons related to heart disease.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <a href="mailto:thapamaan175@gmail.com">Email: thapamaan175@gmail.com</a>
+            <a href="https://www.linkedin.com/in/man-bahadur-thapa">LinkedIn</a>
+            <a href="https://github.com/meliodas-sama1248">GitHub</a>
+        </section>
+    </div>
+    <script>
+        document.querySelectorAll('.contact a').forEach(link => {
+            link.addEventListener('mouseover', () => {
+                link.style.color = 'red';
+            });
+            link.addEventListener('mouseout', () => {
+                link.style.color = '#007BFF';
+            });
+        });
+    </script>
+</body>
+</html>
